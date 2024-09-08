@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME BUILDER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Editable Resume Builder by Muhammad Hassan Jawaid</h1>
+    <br>
+    <!------------------Personal Info Part  -------------->
+    <form id ="resumeForm" >
+        <fieldset>
+            <legend>Personal Infromation</legend>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="contact">Contact: </label><br>
+            <input type="contact" id="contact" name="contact" required>
+        </fieldset> <br>
+
+    <!------------------Education Part  -------------->
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education</label><br>
+            <textarea name="education" id="education" rows="6" required></textarea><br>
+
+        </fieldset><br>
+
+    <!------------------Experience Part  -------------->
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="experience">Experience</label><br>
+        <textarea name="experience" id="experience" rows="6" required></textarea><br>
+
+    </fieldset><br>
+
+
+    <!------------------Skills Part  -------------->
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills</label><br>
+        <textarea name="skills" id="skills" rows="6" required></textarea><br>
+
+    </fieldset><br>
+
+    <!------------------Uploading Image  -------------->
+
+
+    <!-- <fieldset>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+    </fieldset><br> -->
+    
+
+    <!------------------Button for Submission -------------->
+    
+<button type="submit">Click to Generate Resume</button>
+
+    </form>
+
+<div id="resumeOutput">
+    <!---------- Resume generating ---------------->
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

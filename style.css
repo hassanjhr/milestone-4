@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    /* background-color: rgb(222, 231, 234); */
+    background-color: rgb(238, 238, 233);
+    background-image: url('images/Hackathon.jpg');
+    background-size: cover;
+    }
+
+    h1{
+        text-align: center;
+        color: rgb(244, 246, 247);
+    }
+
+    form{
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: rgb(213, 215, 251);
+        box-shadow: 0 4px 8px rgb(137, 172, 175);
+        border-radius: 8px;
+        
+    }
+
+    fieldset{
+        border: 2px solid rgb(45, 55, 104);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: rgb(213, 231, 255);
+    }
+
+    legend{
+        font-weight: bold;
+        color: rgb(55, 62, 69);
+        text-align: left;
+        font-size: x-large;
+
+    }
+
+    label{
+        display: block;
+        margin-top: 10px;
+        color:rgb(55, 62, 69);
+
+    }
+
+    input,textarea{
+        width: calc(100% - 16px);
+        padding: 8px;
+        margin-top: 4px ;
+        border: 1px solid rgb(45, 55, 104);
+        border-radius: 4px;
+        box-sizing: border-box;
+
+    }
+
+    button {
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(237, 249, 249);
+        font-weight: bold;
+        border-radius: 8px;
+        color: black;
+        cursor: pointer;
+        margin: 10px ;
+        font-size: 18px;
+    }
+
+    button:hover{
+        background-color: rgb(194, 205, 205);
+    }
+
+    #resumeOutput {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid rgb(45, 55, 104);
+        border-radius: 8px;
+        background-color: rgb(238, 238, 233);
+        box-shadow: 0 4px 8px rgb(131, 157, 159);
+
+
+
+    }
+
+    #resumeOutput {
+        color: rgb(55, 62, 69);
+    }
